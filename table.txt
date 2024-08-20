@@ -1,0 +1,43 @@
+logo{
+    pk_id
+    status ( header,footer)
+    thumbnail
+}
+news{
+    pk_id
+    author_id
+    type
+    category
+    banner
+    thumnail
+    title
+    description
+    view
+    create_at
+}
+footer{
+    pk_id
+    description
+}
+follow_us{
+    pk_id
+    label(footer)
+    logo
+    url
+}
+feedback{
+    pk_id
+    username
+    email
+    phone
+    address
+    message
+    create_at
+}
+user{
+    pk_id
+    username
+    email
+    password
+    profile
+}
